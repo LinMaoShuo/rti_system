@@ -1,6 +1,7 @@
 # rti_system
 乡村旅游智能服务系统
 
+
 ot = (0, s().default)(rt, 2), it = ot[0], at = ot[1], lt = (0, u().useState)({
                         numErrorFlag: !1,
                         errorMsg: "",
@@ -9,14 +10,14 @@ ot = (0, s().default)(rt, 2), it = ot[0], at = ot[1], lt = (0, u().useState)({
                     })
 
 function s() {
-                var e = r(n(63038));
+                var e = r(f63038());
                 return s = function () {
                     return e
                 }, e
             }
 
 function f63038 (e, t, n) {
-            var r = n(22858), o = n(13884), i = n(60379), a = n(80521);
+            var r = f22858(), o = f13884(), i = f60379(), a = f80521();
             e.exports = function (e, t) {
                 return r(e) || o(e, t) || i(e, t) || a()
             }, e.exports.__esModule = !0, e.exports.default = e.exports
